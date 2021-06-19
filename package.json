@@ -22,13 +22,17 @@
     "eslint-plugin-vue": "^7.0.0"
   },
   "eslintConfig": {
-    "root": false,
+    "root": true,
     "env": {
-      "node": false
+      "node": true
     },
-    "extends": [],
-    "parserOptions": {},
-    "rules": {}
+    "extends": [
+      "plugin:vue/essential"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
   },
   "browserslist": [
     "> 1%",
