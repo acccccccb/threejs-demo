@@ -109,10 +109,10 @@
             },
             createScence() {
                 return new Promise(resolve => {
-                    this.camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight,100, 5000 );
+                    this.camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 50, 5000 );
                     this.camera.position.x = 0;
                     this.camera.position.y = 5;
-                    this.camera.position.z = 1000;
+                    this.camera.position.z = 500;
 
                     this.scene = new THREE.Scene();
 
