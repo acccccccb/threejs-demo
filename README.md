@@ -1,5 +1,7 @@
 # threejs-demo
 
+[Demo](https://acccccccb.github.io/threejs-demo/)
+
 ## Project setup
 ```
 npm install
